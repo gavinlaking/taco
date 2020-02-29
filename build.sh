@@ -12,4 +12,5 @@ echo -ne "\e[32mLinking...\e[39m\n"
 ld65 src/*.o -C nes.cfg -o helloworld.nes
 
 echo -ne "\e[32mExecuting...\e[39m\n"
-higan helloworld.nes
+# higan helloworld.nes
+java -jar ~/Downloads/nintaco/Nintaco.jar helloworld.nes
